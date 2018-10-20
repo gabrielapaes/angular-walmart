@@ -13,7 +13,15 @@ Links abaixo:
 * [Material](https://material.angular.io) 
 
 IDE escolhido para desenvolver o projeto: web applications https://stackblitz.com.
-Com essa ferramenta foi possível desenvolver sem depender de infra estrutura dedicada ao projeto e importar packges nas dependências do IDE.
+Com essa ferramenta é possível desenvolver sem depender de infra estrutura dedicada ao projeto e importar packges nas dependências do IDE.
+
+Link Stackblitz editor:
+
+https://stackblitz.com/edit/projeto-angular-walmart
+
+Link Stackblitz app view:
+
+https://projeto-angular-walmart.stackblitz.io
 
 ** Visual / UX **
 
