@@ -1,7 +1,7 @@
 # angular-walmart
 Projeto teste Walmart
 
-Esse projeto foi desenvolvido em *Angular* e foi baseado no tutoral do The Hero Editor e na parte visual foram utilizados componentes do material angular.
+Esse projeto foi desenvolvido em *Angular* e foi baseado no tutorial do The Hero Editor e na parte visual foram utilizados componentes do material angular.
 
 Links abaixo:
 
