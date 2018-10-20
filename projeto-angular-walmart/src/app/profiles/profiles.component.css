@@ -1,7 +1,8 @@
 .icone {
     float: left;
-    margin-top: -4px;
-    margin-left: 2%;
+    margin-top: -3px;
+    margin-left: 3%;
+    margin-right: 10px;
 }
 .mat-form-field-appearance-legacy .mat-form-field-infix {
     padding: 0;
