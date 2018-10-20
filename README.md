@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido em *Angular 6* e foi baseado no tutorial The Hero 
 
 Versão 6.1.10
 
-Na parte visual foram utilizados componentes do material angular.
+Na parte visual foram utilizados componentes do material Angular e Bootstrap 4.
 
 Links abaixo:
 
@@ -13,7 +13,7 @@ Links abaixo:
 * [Material](https://material.angular.io) 
 
 IDE escolhido para desenvolver o projeto: web applications https://stackblitz.com.
-Com essa ferramenta é possível desenvolver sem depender de infra estrutura dedicada ao projeto e importar packges nas dependências do IDE.
+Com essa ferramenta é possível desenvolver sem depender de infra estrutura dedicada ao projeto. É possível também importar packges nas dependências do IDE.
 
 Link Stackblitz editor:
 
