@@ -13,7 +13,7 @@ Links abaixo:
 * [Material](https://material.angular.io) 
 
 IDE escolhido para desenvolver o projeto: web applications https://stackblitz.com.
-Com essa ferramenta foi possível desenvolver sem uma infra estrutura dedicada ao projeto e importar packges nas dependências do IDE.
+Com essa ferramenta foi possível desenvolver sem depender de infra estrutura dedicada ao projeto e importar packges nas dependências do IDE.
 
 ** Visual / UX **
 
