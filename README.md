@@ -3,6 +3,8 @@ Projeto teste Walmart
 
 Esse projeto foi desenvolvido em *Angular 6* e foi baseado no tutorial The Hero Editor.
 
+Versão 6.1.10
+
 Na parte visual foram utilizados componentes do material angular.
 
 Links abaixo:
