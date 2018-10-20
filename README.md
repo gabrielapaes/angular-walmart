@@ -10,12 +10,15 @@ Links abaixo:
 * [Angular](https://angular.io/tutorial)
 * [Material](https://material.angular.io) 
 
-O IDE escolhido para desenvolver o projeto foi o IDE for web applications https://stackblitz.com , com essa ferramenta foi possivel desenvolver sem preocupação com a infra estrutura. (Apenas importando packges nas dependencias do IDE)
+IDE escolhido para desenvolver o projeto: web applications https://stackblitz.com.
+Com essa ferramenta foi possível desenvolver uma infra estrutura dedicada ao projeto e importar packges nas dependências do IDE.
 
 ** Visual / UX **
 
-
-
+A interface foi resolvida de forma simples, minimalista e intuitiva para navegação.
+O objetivo é que o usuário tenha uma jornada fluida e possa acessar e editar todas as informações que precise de forma simples 
+e contínua.
+O objetivo da interface deve ser sempre alcançado.
 
 
 
