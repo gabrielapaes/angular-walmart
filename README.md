@@ -5,8 +5,8 @@ Esse projeto foi desenvolvido em *Angular* e foi baseado no tutoral do The Hero 
 
 Links abaixo:
 
-* [texto](https://angular.io/tutorial)
-* [texto](https://material.angular.io) 
+* [Angular](https://angular.io/tutorial)
+* [Material](https://material.angular.io) 
 
 O IDE escolhido para desenvolver o projeto foi o IDE for web applications https://stackblitz.com , com essa ferramenta foi possivel desenvovler sem preocupação com a infra estrutura.
 
