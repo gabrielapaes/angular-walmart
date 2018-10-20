@@ -1,0 +1,58 @@
+<div class="container">
+
+ <div class="row">
+  <div class="col-md-4">
+    <a routerLink="/profiles"> </a>
+  </div>
+  <div class="col-md-8">
+  </div>
+</div>
+
+<br/>
+  <div class="row">
+    <div class="col-md-4">
+     <div class="col-md-12 pintamenu">
+      <a class="endereco" routerLink="/profiles">Meus dados  <img class="seta1" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/seta.png" width="15px" height="20px"></a>
+      <br/>
+      <p class="labelmenu">Edite suas informações pessoais </p>
+    </div>
+    <div class="col-md-12 pintamenu">
+     <a class="profile" routerLink="/heroes">Meus Endereços <img class="seta" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/seta.png" width="15px" height="20px"></a>
+     <br/>
+     <p class="labelmenu">Edite seus pontos de entrega</p>
+   </div>
+   <div class="col-md-12 pintamenu">
+    <a class="pedido" routerLink="/pedidos">Meus pedidos<img class="seta2" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/seta.png" width="15px" height="20px"></a>
+    <br/>
+    <p class="labelmenu">Confira seus pedidos</p>
+  </div>
+</div>
+
+<div class="col-md-1">
+</div>
+
+<div class="col-md-7">
+  <div class="col-md-12">
+   <p class="titulo">Clique sob o dado que deseja editar.
+    &nbsp;  <img class="icone" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/icon-endereco.png" width="25px" height="25px"></p>
+    <ul class="heroes">
+      <li *ngFor="let hero of heroes">
+        <a routerLink="/detail/{{hero.id}}">
+          <span class="badge">{{hero.id}}</span>
+          {{hero.name}}
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
+
+<!-- Copyright 2018 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

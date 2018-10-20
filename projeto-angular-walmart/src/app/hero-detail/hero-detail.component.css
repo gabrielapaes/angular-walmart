@@ -1,0 +1,47 @@
+
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #999;
+  font-size: 11px;
+}
+input {
+  height: 3em;
+  font-size: 1.2em;
+  padding-left: .4em;
+  width: 400px;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 8px 30px;
+  font-size: 14px;
+  border-radius: 0px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  color: #fff!;
+  background-color: #222222!;
+}
+.seta1{
+  margin-left: 135px;
+  text-align: right
+}
+.seta2{
+  margin-left: 126px;
+}
+.icone{
+  padding-right: 7px;
+  float: left;
+  margin-top: 0px;
+}
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

@@ -1,0 +1,85 @@
+<div class="container">
+
+ <div class="row">
+  <div class="col-md-4">
+    <a routerLink="/profiles"> </a>
+  </div>
+  <div class="col-md-8">
+  </div>
+</div>
+
+<br/>
+  <div class="row">
+    <div class="col-md-4">
+     <div class="col-md-12 pintamenu">
+      <a class="profile" routerLink="/profiles">Meus dados  <img class="seta1" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/seta.png" width="15px" height="20px"></a>
+      <br/>
+      <p class="labelmenu">Edite suas informações pessoais </p>
+    </div>
+    <div class="col-md-12 pintamenu">
+     <a class="endereco" routerLink="/heroes">Meus Endereços <img class="seta" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/seta.png" width="15px" height="20px"></a>
+     <br/>
+     <p class="labelmenu">Edite seus pontos de entrega</p>
+   </div>
+   <div class="col-md-12 pintamenu">
+    <a class="pedido" routerLink="/pedidos">Meus pedidos<img class="seta2" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/seta.png" width="15px" height="20px"></a>
+    <br/>
+    <p class="labelmenu">Confira seus pedidos</p>
+  </div>
+</div>
+<div class="col-xs-12 col-md-8">
+  <div class="col-md-12">
+      <p class="titulo">Edite os campos abaixo e clique em Atualizar dados para salvar as alterações.
+    <img class="icone" src="https://raw.githubusercontent.com/gabrielapaes/angular-walmart/master/images2/icon-cliente.png" width="30px" height="30px"></p>
+    <span> 
+      <mat-form-field class="espaco">
+        <input matInput value="Gabriela  " placeholder="Nome" #message>
+      </mat-form-field>
+    </span>
+    <span> 
+      <mat-form-field class="espaco">
+        <input matInput value="Paes " placeholder="Sobrenome" #action>
+      </mat-form-field>
+    </span>
+  </div>
+
+  <div class="col-md-12">
+    <span> 
+      <mat-form-field class="espaco">
+        <input matInput value="gabrielapaes@gmail.com " placeholder="E-mail" #action>
+      </mat-form-field>
+    </span>
+    <span> 
+      <mat-form-field class="espaco">
+        <input matInput value="317859518-07" placeholder="CPF" #action>
+      </mat-form-field>
+    </span>
+  </div>
+
+  <div class="col-md-12">
+   <span> 
+    <mat-form-field class="espaco">
+      <input matInput value="22/01/1986" placeholder="Data de Nascimento" #action>
+    </mat-form-field>
+  </span>
+  <span> 
+    <mat-form-field class="espaco">
+      <input matInput value="(011) 9634-6043" placeholder="Celular" #action>
+    </mat-form-field>
+  </span>
+</div>
+
+<div style="text-align: left;  margin-left: 3%;" class="col-md-12">
+  <span> 
+    <button class="salvabotao" mat-button (click)="openSnackBar('Salvo com sucesso', action.value)">Atualizar dados</button>
+  </span>
+</div>
+
+</div>
+</div>
+
+<router-outlet></router-outlet>
+
+<!-- Copyright 2018 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

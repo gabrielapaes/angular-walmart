@@ -1,0 +1,197 @@
+/* Master Styles */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 0em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+ background-color: #fff;
+  color: #888;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 0px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  color: #ffffff;
+  background-color: #222222;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #b2b2b2;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+.btn-link {
+    color: #888;
+}
+.table thead th {
+    border-bottom: 1px solid #dee2e6;
+}
+.table {
+    font-size: 14px;
+}
+.card-body {
+    padding-left: 10px;
+    padding: 0px;
+}
+.card-header {
+    padding: 0.6rem 0.9rem;
+
+    background-color: #fff;
+    border-bottom: none;
+}
+.card {
+    border-bottom: 1px solid #888;
+    border-radius: 0;
+    /* padding: 10px; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.btn-link {
+
+    font-weight: 400;
+    padding: 0px;
+    color: #888;
+    background-color: transparent;
+}
+.btn-link:hover {
+    color: #555;
+    font-weight: 900;
+    text-decoration: none;
+}
+.mat-form-field-infix {
+    width: 270px!Important;
+}
+.profile{
+      font-size: 18px;
+font-weight: 900;
+color: #000;
+}
+.endereco{
+      font-size: 18px;
+color: #b9b9b9;
+}
+.pedido{
+      font-size: 18px;
+color: #b9b9b9;
+}
+.rowmenu{
+  background: #e2e2e2;
+}
+.salvabotao{
+      background: #2196f3;
+    color: #fff;
+}
+.seta{
+  margin-left: 95px;
+  text-align: right
+}
+.seta1{
+  margin-left: 120px;
+  text-align: right
+}
+.seta2{
+  margin-left: 120px;
+  text-align: right
+}
+.espaco{
+  padding: 20px;
+}
+.pintamenu {
+    /* background: #f9f9f9; */
+    padding-top: 7%;
+    padding-left: 3%;
+    border-bottom: 1px solid #e2e2e2;
+}
+.labelmenu{
+  color: #999;
+  font-size: 11px;
+}
+.icone{
+  float: left;
+  margin-top: -10px;
+}
+.container{
+  margin-top: 3%;
+}
+.fraseicone{
+  margin-left: 15px;
+  color: #000;
+}
+.titulo{
+  font-size: 18px;
+color: #000; 
+}
+@media only screen and (max-width: 600px) {
+    .titulo {
+        font-size: 16px;
+        margin-top: 9%;
+    margin-left:4%;
+    }
+    .icone{
+      display: none;
+    }
+}
+.mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0px;
+}
+.mat-input-element {
+      padding-bottom: 6px!Important;
+    padding-top: 4px!Important;
+    border-bottom: 1px solid #888!Important;
+}
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
