@@ -28,7 +28,6 @@ https://projeto-angular-walmart.stackblitz.io
 A interface foi resolvida de forma simples, minimalista e intuitiva para navegação.
 O objetivo é que o usuário tenha uma jornada fluida e possa acessar e editar todas as informações que precise de forma simples 
 e contínua.
-O objetivo da interface deve ser sempre alcançado.
 
 
 
